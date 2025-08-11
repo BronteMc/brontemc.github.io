@@ -6,17 +6,20 @@
 }
 
 /* Add a black background color to the top navigation */
-/* .topnav {
+ .topnav {
   background-color: #f7e1d7;
-  overflow: hidden; } */
+  overflow: hidden;
+}
 
-  .topnav {
+/*
+  .box {
   --mask:
     radial-gradient(11.66px at 50% calc(100% - 16px),#f7e1d7 99%,#f7e1d7 101%) calc(50% - 20px) 0/40px 100%,
     radial-gradient(11.66px at 50% calc(100% + 6px),#f7e1d7 99%,#f7e1d7 101%) 50% calc(100% - 10px)/40px 100% repeat-x;
   -webkit-mask: var(--mask);
           mask: var(--mask);
 }
+*/
 
 /* Style the links inside the navigation bar */
 .topnav a {
