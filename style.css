@@ -1,9 +1,7 @@
-.stripe-background {
-background: repeating-linear-gradient(
-    to right,
-    #f6ba52,
-    #f6ba51 10px,
-    #ffd180 10px,
-    #ffd180 20px
-    );
+.grid-background {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
 }
+
