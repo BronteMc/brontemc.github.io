@@ -1,7 +1,7 @@
 .grid-background {
   background-size: 20px 20px;
   background-image:
-    linear-gradient(to right, #edafb8 1px, transparent 1px),
-    linear-gradient(to bottom, #edafb8 1px, transparent 1px);
+    linear-gradient(to right, #edafb8 1px, #f7e1d7 1px),
+    linear-gradient(to bottom, #edafb8 1px, #f7e1d7 1px);
 }
 
