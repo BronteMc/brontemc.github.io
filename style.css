@@ -49,3 +49,7 @@ body {
   margin-right: 0px;
   margin-left: 0px;
 }
+
+main {
+  margin: 8px;
+}
