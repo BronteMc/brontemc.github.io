@@ -1,0 +1,84 @@
+.box {
+  background-color: #fff8ee;
+  width: 100%;
+  height: auto;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+
+  --mask:
+    radial-gradient(178.89px at 50% 240px, #000 99%, #0000 101%)
+      calc(50% - 160px) 0/320px 51% repeat-x,
+    radial-gradient(178.89px at 50% -160px, #0000 99%, #000 101%) 50% 80px/320px
+      calc(51% - 80px) repeat-x,
+    radial-gradient(178.89px at 50% calc(100% - 240px), #000 99%, #0000 101%)
+      calc(50% - 160px) 100%/320px 51% repeat-x,
+    radial-gradient(178.89px at 50% calc(100% + 160px), #0000 99%, #000 101%)
+      50% calc(100% - 80px)/320px calc(51% - 80px) repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+h1 {
+  color: #87bce7;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  padding-top: 35px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #87bce7;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.box h2 {
+  text-align: center;
+}
+
+p {
+  color: #5a5a58;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex-container {
+  display: flex;
+  gap: 50px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.container1 {
+  flex: 2;
+}
+
+.container2 {
+  flex: 1;
+  text-align: center;
+}
+
+.trio {
+  flex: 1;
+  text-align: center;
+}
+
+h3 {
+  flex: 1;
+  text-align: center;
+  color: #87bce7;
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}

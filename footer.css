@@ -1,0 +1,28 @@
+.footer {
+  background-color: #f7e1d7;
+  overflow: hidden;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+
+  --mask:
+    radial-gradient(178.89px at 50% 240px, #000 99%, #0000 101%)
+      calc(50% - 160px) 0/320px 100%,
+    radial-gradient(178.89px at 50% -160px, #0000 99%, #000 101%) 50% 80px/320px
+      100% repeat-x;
+  mask: var(--mask);
+}
+
+.footer h2 {
+  color: #edafb8;
+  font-family: "Modak", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 0px;
+  margin-top: 0px;
+}

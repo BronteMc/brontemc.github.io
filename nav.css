@@ -1,0 +1,90 @@
+.topnav {
+  background-color: #f7e1d7;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  --mask:
+    radial-gradient(43.5px at 50% calc(100% - 61.5px), #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(43.5px at 50% calc(100% + 31.5px), #0000 99%, #000 101%) 50%
+      calc(100% - 30px)/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+.topnav ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-icon {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  color: #edafb8;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+  display: none;
+}
+
+.topnav li {
+  height: 85px;
+}
+
+.topnav a {
+  height: 100%;
+  float: left;
+  color: #1e212b;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Consider display: inline-block (and no align-items: center ?) for above in .topnav a*/
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #87bce7;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #edafb8;
+  color: #fff8ee;
+}
+
+.topnav li:first-child {
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .topnav ul {
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+  }
+  .menu-icon {
+    display: block;
+  }
+  #menuList {
+    transition: all 0.5s;
+  }
+}
