@@ -19,14 +19,11 @@
     />
   </head>
   <body class="grid-background">
-    <nav class="topnav">
-      <ul id="menuList">
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li>
-          <a href="#">
+    <div class="topnav-bg">
+      <nav class="topnav open">
+        <div class="nav-buttons">
+          <a class="active" href="#home">Home</a>
+          <button id="burgerMenu" aria-label="Open navigation menu">
             <svg height="26" width="26" xmlns="http://www.w3.org/2000/svg">
               <image
                 height="26"
@@ -34,10 +31,15 @@
                 href="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
               />
             </svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
+          </button>
+        </div>
+        <ul id="menuList">
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <script>
       let menuList = document.getElementById("menuList");

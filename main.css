@@ -82,3 +82,23 @@ h3 {
   font-style: normal;
   font-size: 30px;
 }
+
+.box button {
+  background-color: #fc7f4d;
+  color: #fff8ee;
+  border-color: #fc7f4d;
+  border-radius: 12px;
+  border: 2px solid;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box button:hover {
+  background-color: #fff8ee;
+  border-color: #fc7f4d;
+  color: #fc7f4d;
+}

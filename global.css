@@ -16,23 +16,3 @@ html {
   scrollbar-color: #edafb8 #f7e1d7;
   scrollbar-width: thin;
 }
-
-button {
-  background-color: #fc7f4d;
-  color: #fff8ee;
-  border-color: #fc7f4d;
-  border-radius: 12px;
-  border: 2px solid;
-  padding: 10px;
-  margin-top: 10px;
-  text-decoration: none;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-button:hover {
-  background-color: #fff8ee;
-  border-color: #fc7f4d;
-  color: #fc7f4d;
-}
