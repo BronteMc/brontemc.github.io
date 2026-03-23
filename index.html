@@ -19,37 +19,38 @@
     />
   </head>
   <body class="grid-background">
-    <div class="topnav-bg">
-      <nav class="topnav open">
-        <div class="nav-buttons">
-          <a class="active" href="#home">Home</a>
-          <button id="burgerMenu" aria-label="Open navigation menu">
-            <svg height="26" width="26" xmlns="http://www.w3.org/2000/svg">
-              <image
-                height="26"
-                width="26"
-                href="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
-              />
-            </svg>
-          </button>
-        </div>
-        <ul id="menuList">
-          <li><a href="#about">About</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav id="menuList" class="topnav closed">
+      <div class="nav-buttons">
+        <a class="active" href="#home">Home</a>
+        <button
+          onclick="toggleMenu()"
+          id="burgerButton"
+          aria-label="Open navigation menu"
+        >
+          <svg height="26" width="26" xmlns="http://www.w3.org/2000/svg">
+            <image
+              height="26"
+              width="26"
+              href="menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
     <script>
       let menuList = document.getElementById("menuList");
-      // menuList.style.maxHeight = "0px";
 
       function toggleMenu() {
-        if ((menuList.style.maxHeight = "0px")) {
-          menuList.style.maxHeight = "300px";
+        if (menuList.classList.contains("open")) {
+          menuList.classList.replace("open", "closed");
         } else {
-          menuList.style.maxHeight = "0px";
+          menuList.classList.replace("closed", "open");
         }
       }
     </script>
