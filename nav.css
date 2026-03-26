@@ -56,6 +56,10 @@
   cursor: pointer;
 }
 
+#burgerButton:hover {
+color: #87bce7;
+}
+
 .nav-buttons {
   display: flex;
   align-items: center;

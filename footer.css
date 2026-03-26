@@ -1,4 +1,4 @@
-.footer {
+.footer-container {
   background-color: #f7e1d7;
   overflow: hidden;
   font-family: "Fira Sans", sans-serif;
@@ -7,7 +7,7 @@
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
 
   --mask:
     radial-gradient(178.89px at 50% 240px, #000 99%, #0000 101%)
@@ -17,7 +17,7 @@
   mask: var(--mask);
 }
 
-.footer h2 {
+.footer-container h2 {
   color: #edafb8;
   font-family: "Modak", system-ui;
   font-weight: 100;
@@ -25,4 +25,62 @@
   font-size: 30px;
   padding-top: 0px;
   margin-top: 0px;
+  text-align: center;
 }
+
+.flex-row {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container li a {
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #1e212b;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-container li a:hover {
+  color: #87bce7;
+}
+
+.footer-container svg {
+  color: #edafb8;
+  margin-top: 7px;
+}
+
+.footer-container svg:hover {
+  color: #87bce7;
+}
+
+/*
+.footer-container button {
+  background-color: #edafb8;
+  color: #f7e1d7;
+  border-color: #edafb8;
+  border-radius: 12px;
+  border: 2px solid;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 26px;
+  width: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-container button:hover {
+  background-color: #f7e1d7;
+  border-color: #edafb8;
+  color: #edafb8;
+  cursor: pointer;
+}
+*/
