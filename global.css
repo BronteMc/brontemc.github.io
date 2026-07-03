@@ -13,6 +13,14 @@ body {
 }
 
 html {
-  scrollbar-color: #edafb8 #f7e1d7;
+  --color-pink: #F194B4;
+  --color-white: #FFF7EB;
+  --color-green: #005600;
+  --color-red: #C71A56;
+  --color-black: #251605;
+
+  --color-primary: var(--color-pink);
+
+  scrollbar-color: var(--color-primary) var(--color-white);
   scrollbar-width: thin;
 }

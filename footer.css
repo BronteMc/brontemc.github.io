@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #f7e1d7;
+  background-color: var(--color-white);
   overflow: hidden;
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
@@ -18,9 +18,9 @@
 }
 
 .footer-container h2 {
-  color: #edafb8;
-  font-family: "Modak", system-ui;
-  font-weight: 100;
+  color: var(--color-green);
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 900;
   font-style: normal;
   font-size: 30px;
   padding-top: 0px;
@@ -40,30 +40,30 @@
   text-decoration: none;
   padding-left: 15px;
   padding-right: 15px;
-  color: #1e212b;
+  color: var(--color-black);
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .footer-container li a:hover {
-  color: #87bce7;
+  color: var(--color-pink);
 }
 
 .footer-container svg {
-  color: #edafb8;
+  color: var(--color-green);
   margin-top: 7px;
 }
 
 .footer-container svg:hover {
-  color: #87bce7;
+  color: var(--color-pink);
 }
 
 /*
 .footer-container button {
-  background-color: #edafb8;
+  background-color: var(--color-primary);
   color: #f7e1d7;
-  border-color: #edafb8;
+  border-color: var(--color-primary);
   border-radius: 12px;
   border: 2px solid;
   padding: 10px;
@@ -79,8 +79,8 @@
 
 .footer-container button:hover {
   background-color: #f7e1d7;
-  border-color: #edafb8;
-  color: #edafb8;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
   cursor: pointer;
 }
 */

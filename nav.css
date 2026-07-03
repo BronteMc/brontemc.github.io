@@ -1,9 +1,13 @@
 .topnav {
   overflow: hidden;
-  background-color: #f7e1d7;
+  background-color: var(--color-white);
 
   display: flex;
   align-items: center;
+}
+
+.nav-buttons {
+  margin-left: 30px;
 }
 
 .topnav ul {
@@ -19,7 +23,7 @@
 .topnav a {
   height: 100%;
   float: left;
-  color: #1e212b;
+  color: var(--color-black);
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -32,7 +36,7 @@
 }
 
 .topnav button {
-  margin: 0px;
+  margin-right: 30px;
   border: none;
   background: none;
   height: 100%;
@@ -42,13 +46,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: #87bce7;
+  color: var(--color-pink);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #edafb8;
-  color: #fff8ee;
+  color: var(--color-green);
+  font-weight: bold;
 }
 
 #burgerButton {
@@ -57,7 +61,7 @@
 }
 
 #burgerButton:hover {
-color: #87bce7;
+  color: var(--color-pink);
 }
 
 .nav-buttons {
@@ -83,6 +87,11 @@ color: #87bce7;
 
   .topnav ul {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .topnav ul li a {
+    display: block;
     text-align: center;
   }
 
